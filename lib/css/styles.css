@@ -5,15 +5,14 @@ body {
 
 main {
   margin: 150px auto;
-  width: 210mm;
-  height: 297mm;
+  width: calc(210mm - 50px * 2);
+  height: calc(297mm - 10px * 2);
   background-color: white;
-  padding: 10px;
+  padding: 10px 50px;
 }
 
 .head-section {
-  width: calc(100% - 35px * 2); /* 35px comes from margin */
-  margin: 0 35px;
+  width: 100%;
   padding: 35px 0;
   border-bottom: 1px solid rgba(0,0,0,0.1);
 }
@@ -55,7 +54,45 @@ main {
   /* background-color: blue; */
 }
 
+.content-section-left h5, p {
+  margin: 0;
+}
+
+.content-section-left ul {
+  padding: 0 16px;
+}
+
+.content-section-left li {
+  list-style-type: "- ";
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+footer.contacts > a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 12px;
+}
+
 .content-section-right {
   width: 40%;
   /* background-color: green; */
+}
+
+.section-title {
+  opacity: 0.6;
+}
+
+.section-subtitle {
+  opacity: 0.5;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.experience-item {
+  margin-bottom: 30px;
+}
+
+.experience-item:last-of-type {
+  margin-bottom: 100px;
 }
