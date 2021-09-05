@@ -1,0 +1,16 @@
+body {
+  background-color: #ddeeee;
+}
+
+main {
+  margin: 200px auto;
+  width: 210mm;
+  height: 297mm;
+  background-color: white;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0);
+  transition: 0.5s;
+}
+
+main:hover {
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+}
