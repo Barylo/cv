@@ -210,6 +210,13 @@ table {
 .head-section {
   flex-direction: column;
 }
-
-
+.achiv {
+  width: 100%;
+    }
+    .content-section-right {
+      width: 100%;
+    }
+    .content-section-left {
+      width: 100%;
+    }
 }
